@@ -12,6 +12,7 @@ class html
         // TAREA
         //
         //Que se muestre un alert con javascript
+        echo "<script> alert('hola') </script>";
         //
         // TAREA
         //
