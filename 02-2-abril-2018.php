@@ -1,7 +1,5 @@
 <?php
-//Autor: Claudio Morales
-//Fecha: 2 abril 2018
-//Video del Webinar: https://www.facebook.com/ComunidadDePeHPe/videos/1482443465199112/
+
 class html
   {
     public function cabeza($titulo='Sin titulo')
@@ -54,7 +52,7 @@ class MiClase
 }
 //Termina mis clases
 $objetohtml = new html();
-$objetohtml->cabeza("Pronuer home");
+$objetohtml->cabeza("Alert");
 $objetohtml->abriCuerpo();
 
 $miObjeto1 = new MiClase();
@@ -63,16 +61,11 @@ $miObjeto3 = new MiClase();
 $miObjeto4 = new MiClase();
 $miObjeto5 = new MiClase();
 
-$miObjeto1->modificaNombre("objeto UNO");
-$miObjeto2->modificaNombre("objeto DOS");
-$miObjeto3->modificaNombre("objeto TRES");
-$miObjeto4->modificaNombre("objeto CUATRO");
-$miObjeto5->modificaNombre("objeto CINCO");
+$miObjeto1->modificaNombre("objeto UNO :)");
+$miObjeto2->modificaNombre("objeto DOS :)");
+$miObjeto3->modificaNombre("objeto TRES ;)");
+$miObjeto4->modificaNombre("objeto CUATRO :)");
+$miObjeto5->modificaNombre("objeto CINCO :)");
 
 $objetohtml->cerrarcuerpo();
 $objetohtml->pie();
-
-//Tarea
-//Crear Funcion que modifique la propiedad $NombreObjeto
-//Convertir la propiedad "$nombreObjeto" a privada
-//Crear 5 diferentes objetos con diferente nombre y mostrar los nombres de cada uno
