@@ -10,7 +10,7 @@ class html
         // TAREA
         //
         //Que se muestre un alert con javascript
-        echo "<script> alert('hola') </script>";
+        echo "<script> alert('hola desde la pagina  $titulo') </script>";
         //
         // TAREA
         //
@@ -52,7 +52,7 @@ class MiClase
 }
 //Termina mis clases
 $objetohtml = new html();
-$objetohtml->cabeza("Alert");
+$objetohtml->cabeza("pagina nueva");
 $objetohtml->abriCuerpo();
 
 $miObjeto1 = new MiClase();
